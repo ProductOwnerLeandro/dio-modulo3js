@@ -15,7 +15,7 @@ const lista = [
 
 const saldoDisponivel = 100;
 
-function listaPrecos(saldoDisponivel, lista){
+function listaPrecos(saldoDisponivel, lista){       //saldoDisponivel, = callback / prev = acumulador
         return lista.reduce(function(prev, current, index){;
         console.log('rodada ', index +1);
         console.log({prev});
