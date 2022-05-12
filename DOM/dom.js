@@ -8,6 +8,7 @@ function changeClasses(){
     h1.classList.toggle(darkModeClass);
     body.classList.toggle(darkModeClass);
     footer.classList.toggle(darkModeClass);
+    footer.classList.re
 }
 
 function changeText(){
